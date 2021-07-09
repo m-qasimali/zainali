@@ -6,7 +6,8 @@
 body
 {
  background-image:url(2i.jpg);
- height: 160vh;
+ height: 100vh;
+ background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
 }
@@ -16,7 +17,6 @@ body
     top: 300px;
     left: 0;
     width: 100%;
-    height: 100%;
     color: #fff;
     text-align:center;
     font-family: sans-serif;
@@ -35,11 +35,9 @@ h4
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 80;
     margin-bottom: 7px;
-    margin-inline-end: auto;
     position: absolute;
     top: 65%;
     left: 46.5%;
-    height: 80%;
     color: #fff; 
 }
 h2
@@ -48,14 +46,4 @@ h2
     top: 1%;
     left: 2%;
     image-resolution: 200;
-}
-#preloader
-{
-    background: #161621 url(4i.gif) no-repeat center center;
-    background-size: 20%;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-
 }
